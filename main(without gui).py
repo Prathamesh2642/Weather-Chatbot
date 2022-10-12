@@ -3,7 +3,7 @@ import requests
 from datetime import datetime
 
 
-my_apikey="b601c6a0a6fbd1707581c325e123b285"
+my_apikey="API KEY"
 
 def getjson(place):
     link=f"https://api.openweathermap.org/data/2.5/weather?q={place}&appid={my_apikey}&units=metric"
